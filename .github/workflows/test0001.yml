@@ -1,4 +1,4 @@
-name: "Scheduled ls command"
+name: "test0001"
 
 on:
   schedule:
