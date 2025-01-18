@@ -17,6 +17,8 @@ jobs:
 
       - name: Run ls command
         # run: ls -al
-        run: date
+        run: |
+          ls -la
+          date
 
 
