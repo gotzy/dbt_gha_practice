@@ -2,6 +2,17 @@ name: "test0001"
 
 on:
   workflow_dispatch:
+    inputs:
+      name:
+        description: "Enter your name"
+        required: true
+      environment:
+        description: "Choose environment"
+        required: true
+        default: "prod"
+      release_version:
+        description: "Release version number"
+        required: false
   
   # schedule:
   #   # 以下の例ではUTC時間で毎日0時に実行されます(例: 0 0 * * *)。
