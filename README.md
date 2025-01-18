@@ -1,0 +1,2 @@
+# dbt_gha_practice
+dbtとgithub_actionsを練習するリポジトリ
