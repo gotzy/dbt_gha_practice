@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run ls command
-        run: ls -al
-
+        # run: ls -al
+        run: date
 
 
