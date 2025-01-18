@@ -1,9 +1,9 @@
-name: "Scheduled ls command"
+name: "test0002"
 
-on:
-  schedule:
-    # 以下の例ではUTC時間で毎日0時に実行されます(例: 0 0 * * *)。
-    - cron: "30 10 * * *"
+#on:
+#  schedule:
+#    # 以下の例ではUTC時間で毎日0時に実行されます(例: 0 0 * * *)。
+#    - cron: "30 10 * * *"
 
 jobs:
   run-ls:
