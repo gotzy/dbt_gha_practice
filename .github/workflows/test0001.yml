@@ -32,4 +32,9 @@ jobs:
           ls -la
           date
 
+      - name: Show inputs
+        run: |
+          echo "Name: ${{ github.event.inputs.name }}"
+          echo "Environment: ${{ github.event.inputs.environment }}"
+          echo "Release Version: ${{ github.event.inputs.release_version }}"
 
