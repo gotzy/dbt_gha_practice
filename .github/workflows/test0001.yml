@@ -1,0 +1,20 @@
+name: "Scheduled ls command"
+
+on:
+  schedule:
+    # 以下の例ではUTC時間で毎日0時に実行されます(例: 0 0 * * *)。
+    - cron: "0 20 * * *"
+
+jobs:
+  run-ls:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      - name: Run ls command
+        run: ls -al
+
+
+
