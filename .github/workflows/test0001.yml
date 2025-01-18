@@ -1,9 +1,11 @@
 name: "test0001"
 
 on:
-  schedule:
-    # 以下の例ではUTC時間で毎日0時に実行されます(例: 0 0 * * *)。
-    - cron: "40 10 * * *"
+  workflow_dispatch:
+  
+  # schedule:
+  #   # 以下の例ではUTC時間で毎日0時に実行されます(例: 0 0 * * *)。
+  #   - cron: "40 10 * * *"
 
 jobs:
   run-ls:
